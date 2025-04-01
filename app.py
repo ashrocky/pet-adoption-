@@ -209,7 +209,6 @@ def pet_care_guide():
 # Add a new pet function
 def add_new_pet():
     st.title("➕ Add a New Pet")
-    st.write("Debug: Entered Add New Pet Page")  # Debugging Line
     
     with st.form("add_pet_form", clear_on_submit=True):
         name = st.text_input("Pet Name")
